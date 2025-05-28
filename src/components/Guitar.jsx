@@ -7,7 +7,7 @@ export default function Guitar({guitar, addToCart}) {
       <div className="col-4">
         <img
           className="img-fluid"
-          src={`/img/${image}.jpg`}
+          src={`./img/${image}.jpg`}
           alt={name}
         />
       </div>
